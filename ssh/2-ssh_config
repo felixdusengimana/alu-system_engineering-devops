@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# Configure SSH configuration file
-Host 54.87.140.206
-IdentityFile ~/.ssh/school
-PasswordAuthentication betty
+# Configuring ssh client so that I can connect to the server without typing a password.
+Host 3.91.243.141
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no

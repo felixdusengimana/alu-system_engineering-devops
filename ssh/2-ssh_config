@@ -2,4 +2,4 @@
 # Configure SSH configuration file
 Host 54.87.140.206
 IdentityFile ~/.ssh/school
-PasswordAuthentication no
+PasswordAuthentication betty

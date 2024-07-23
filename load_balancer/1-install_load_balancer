@@ -16,8 +16,8 @@ frontend felix-frontend
         default_backend felix-backend
 backend felix-backend
         balance roundrobin
-        server 6244-web-01 3.91.243.141 check
-        server 6244-web-02 54.242.96.251 check
+        server 6244-web-01 3.91.243.141:80 check
+        server 6244-web-02 54.242.96.251:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
